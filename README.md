@@ -2,7 +2,7 @@
 naoco(New generation Aspect Oriented Compact Objects) - as Java model-layer framework project
 
 # history
-2017.07.22 Ver.0.0.01 初版作成
+2017.07.22 Ver.0.0.01 β版 初版作成
 
 # current progress
 <p>
@@ -13,7 +13,7 @@ Ver.0.0.01
 </p>
 <p>
 最低限の機能を実装しています。<br/>
-現在の実装でも、商用アプリケーションの使用に耐えうる品質と性能を有していますが、今後の機能追加、処理改善により、パッケージとクラス構成が変更になる可能性があります。<br/>
+現在の実装でも、商用アプリケーションの使用に耐えうる品質と性能を有していますが、今後の機能追加、設計改善により、パッケージとクラス、およびクラス内のメソッドの構成と名称が変更になる可能性があります。<br/>
 マニュアル、ドキュメントを準備中です。<br/>
 </p>
 
@@ -24,7 +24,7 @@ naoco(New generation Aspect Oriented Compact Objects)は、MVCモデルアプリ
 <p>
 JDK1.7に対応しています。
 </p>
-naocoは主に以下の処理を提供します。
+naocoは主に以下の機能を提供します。
 <table>
   <tr>
     <td>トランザクション管理機能</td>
@@ -32,7 +32,7 @@ naocoは主に以下の処理を提供します。
   </tr>
   <tr>
     <td>基本的なORMapper機能</td>
-    <td>JavaBeans形式のEntityオブジェクトと、RDBMSから取得したResultSet、およびシンプルなINSERT,UPDATE,DELETE文の紐付けを行います。</br>また、主キー検索のSELECT、UPDATE,DELETE,およびINSERTはEntityオブジェクトから自動生成をします。</td>
+    <td>JavaBeans形式のEntityオブジェクトと、RDBMSから取得したResultSet、およびシンプルなINSERT文、UPDATE文、DELETE文の紐付けを行います。</br>また、主キー検索によるSELECT、UPDATE、DELETE、およびINSERTはEntityオブジェクトから自動生成をします。</td>
   </tr>
   <tr>
     <td>SQLテンプレート機能</td>
