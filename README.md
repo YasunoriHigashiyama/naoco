@@ -9,6 +9,9 @@ naoco(New generation Aspect Oriented Compact Objects) - as Java model-layer fram
 Ver.0.0.01
 </p>
 <p>
+β版（ベータ版）です。
+</p>
+<p>
 最低限の機能を実装しています。<br/>
 現在の実装でも、商用アプリケーションの使用に耐えうる品質と性能を有していますが、今後の機能追加、処理改善により、パッケージとクラス構成が変更になる可能性があります。<br/>
 マニュアル、ドキュメントを準備中です。<br/>
@@ -29,8 +32,7 @@ naocoは主に以下の処理を提供します。
   </tr>
   <tr>
     <td>基本的なORMapper機能</td>
-    <td>JavaBeans形式のEntityオブジェクトと、RDBMSから取得したResultSet、およびシンプルなINSERT,UPDATE,DELETE文の紐付けを行います。</br>
-        また、主キー検索のSELECT、UPDATE,DELETE,およびINSERTはEntityオブジェクトから自動生成をします。</td>
+    <td>JavaBeans形式のEntityオブジェクトと、RDBMSから取得したResultSet、およびシンプルなINSERT,UPDATE,DELETE文の紐付けを行います。</br>また、主キー検索のSELECT、UPDATE,DELETE,およびINSERTはEntityオブジェクトから自動生成をします。</td>
   </tr>
   <tr>
     <td>SQLテンプレート機能</td>
@@ -38,9 +40,7 @@ naocoは主に以下の処理を提供します。
   </tr>
   <tr>
     <td>Producer-Consumerフレームワーク</td>
-    <td>マルチスレッドパターンのProducer-Consumerパターンのフレームワークを実装しています。</br>
-　　　   naocoでは、シンプルなProducer-Consumerパターンのみではなく、中間処理を任意にProducerとConsumerの間に挟み込む機能も実装しています。</br>
-　　　　 これにより、高度な処理の部品化と再利用化が可能となります。
+    <td>マルチスレッドパターンのProducer-Consumerパターンのフレームワークを実装しています。</br>naocoでは、シンプルなProducer-Consumerパターンのみではなく、中間処理を任意にProducerとConsumerの間に挟み込む機能も実装しています。</br>これにより、高度な処理の部品化と再利用化が可能となります。
     </td>
   </tr>
 </table>
@@ -52,4 +52,5 @@ naocoは主に以下の処理を提供します。
   <li>実装する機能は必要最小限に絞り、ユーザに拡張性を提供することで、フレームワークとしての価値を高めます。
   <li>基本機能はJDKライブラリ以外のライブラリに依存しません。外部ライブラリに依存または連携する処理は、jp.gr.naoco.externalパッケージ配下に集約します。
 </ul>
+
 EOF
